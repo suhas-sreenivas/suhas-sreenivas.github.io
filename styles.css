@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: #ffffff;
+    color: #5d6063;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+}
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-container{
+    padding: 20px 20px;
+    justify-content: space-between;
+    box-shadow: 0 2px 0 rgba(93, 96, 99, .1);
+    height: 40px;
+}
+
+.menu{
+    align-items: center;
+}
+
+.menu-item{
+    margin: 0px 1px;
+}
+
+.page-header {
+    /* border-bottom: 1px solid #EAEDF0; */
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+.heading_page_title {
+    text-align: center;
+}
+
+.content-front-page-temp{
+    margin: 20px 20px;
+    flex-wrap: wrap;
+    /* font-size: 15px; */
+}
+
+.content-piece{
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.subheading{
+    margin-bottom: 0.5em;
+}
+
+.content-piece p, dt{
+    font-weight: 400;
+}
+
+.content-piece dd{
+    font-weight: 300;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+}
+  
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+}
+  
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  /* .menu-container{
+      width: 960px;
+  } */
+  .content-front-page-temp{
+      width: 600px;
+  }
+}

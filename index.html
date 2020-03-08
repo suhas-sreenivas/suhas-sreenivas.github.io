@@ -13,13 +13,12 @@
         <meta charset="UTF-8"/>
         <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
         <title>Suhas</title>
-        <link rel='stylesheet' href='styles.css'>
+        <link rel='stylesheet' href='/styles.css'>
         <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="page">
         
-        <div class="section menu-container">
+        <div class="menu-container">
             <div class="website-title"><a href="/index.html">suhas sreenivas</a></div>
             <div class="menu">
                 <a href="https://github.com/suhas-sreenivas" class="menu-item">github</a>
@@ -28,65 +27,45 @@
             </div>
         </div>
         
-        <div class="section page-header">
-            <h1 class="heading_page_title">What I'm doing now</h1>
-        </div>
+        <div class="page">
+            
+            <div class="content">
+                
+                    <h1>About Me</h1>
 
-        <div class="section content-front-page-temp">
-                    
-            <div class="content-piece">
-                <h3 class="subheading">Projects I'm working on:</h3>
-                <dl>
-                    <dt>A Winter Project</dt>
-                    <dd>Trying to get a leetcode of sorts for 6502 assembly up and running. This is so I learn how to build and deploy a non trivial web app.</dd>
-                </dl>
+<p><strong>Projects I'm working on:</strong></p>
+
+<p>Writing a python static site generator using jinja2 and markdown2 and using it to generate this site - <a href="">repo</a></p>
+
+<p>Processing logs using PySpark</p>
+
+<p>(unofficial)Heart and Brain webcomic <a href="http://heartandbrain.pythonanywhere.com/">api</a>! - made with Django Rest Framework - <a href="">repo</a></p>
+
+<p><strong>Podcasts I enjoy:</strong></p>
+
+<p><a href="https://talkpython.fm/">Talk Python to me</a> - Deep dives on python topics with interesting people who are working it. This is my go to python podcast.</p>
+
+<p><a href="https://www.redhat.com/en/command-line-heroes">Command line heroes</a> - By RedHat. Best history lessons in under a half hour. Season 3 was about programming languages. The previous seasons had episodes on the origin of DevOps, Agile, OS wars etc. <br />
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Learning why and when a tool or process was created helps me understand CS better. The command line heroes podcast by <a href="https://twitter.com/RedHat?ref_src=twsrc%5Etfw">@RedHat</a>, hosted by <a href="https://twitter.com/saronyitbarek?ref_src=twsrc%5Etfw">@saronyitbarek</a> has the best history lessons under a half hour. Especially loved how the episodes on Agile, DevOps and containers are related.</p>&mdash; Suhas Sreenivas (@suhas_sreenivas) <a href="https://twitter.com/suhas_sreenivas/status/1152047634452033537?ref_src=twsrc%5Etfw">July 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p><strong>Some old projects:</strong></p>
+
+<p><a href="http://cs.iit.edu/~khale/class/vm-class/f19/handout/p2.html">Hawkbeans</a> (coursework) - Worked on implementing parts of a JVM.</p>
+
+<p><a href="http://cs.iit.edu/~khale/class/vm-class/f19/handout/p4.html">Hawker</a> (coursework) - A very basic container management engine.</p>
+
+<p><a href="http://cs.iit.edu/~khale/class/vm-class/f19/handout/p3.html">VMM basics with KVM</a> (coursework) - Built a small hypervisor using the KVM API.  </p>
+
+<p><a href="http://cs.iit.edu/~khale/class/vm-class/f19/handout/p1-full.html">Hawknest</a> (coursework) - Wrote opcode handlers for interpreting 6502 assembly. Hoping to get some NES test roms running.</p>
+
+<p><strong>Hackathons:</strong></p>
+
+<p>Uncommon Hacks 2020 - Scraped The Awkward Yeti site and made an api to access "heart and brain" comics - became a project I'm still working on.  </p>
+
+<p>DemonHacks 2019 - The theme was public transport and social good(we chose this). Check it out <a href="https://github.com/suhas-sreenivas/DemonHacks2019">here</a>.</p>
+
+                
             </div>
-  
-            <div class="content-piece">
-                <h3 class="subheading">Stuff I did recently:</h3>
-                <dl>
-                    <dt><a href="http://cs.iit.edu/~khale/class/vm-class/f19/handout/p2.html">Hawkbeans</a></dt>
-                    <dd>(coursework) Worked on implementing parts of a JVM.</dd>
-
-                    <dt><a href= "http://cs.iit.edu/~khale/class/vm-class/f19/handout/p4.html">Hawker</a></dt>
-                    <dd>(coursework) A very basic container management engine.</dd>
-
-                    <dt><a href= "http://cs.iit.edu/~khale/class/vm-class/f19/handout/p3.html">VMM basics with KVM</a></dt>
-                    <dd>(coursework) Built a small hypervisor using the KVM API.</dd>
-
-                    <dt><a href= "http://cs.iit.edu/~khale/class/vm-class/f19/handout/p1-full.html">Hawknest</a></dt>
-                    <dd>(coursework) Wrote opcode handlers for interpreting 6502 assembly. Hoping to get some NES test roms running.</dd>
-                </dl>
-            </div>
-
-            <div class="content-piece">
-                    <h3 class="subheading">Podcasts I regularly tune into:</h3>
-                    <dl>
-                        <dt><a href="https://talkpython.fm/">Talk python to me</a></dt>
-                        <dd>Deep dives on a python topics with interesting people who are working it. This is my go to python podcast.</dd>
-    
-                        <dt><a href= "https://www.redhat.com/en/command-line-heroes">Command line heroes</a></dt>
-                        <dd>
-                            
-                            By RedHat. Best history lessons in under a half hour. This season is about programming languages. 
-                            The previous seasons had episodes on the origin of DevOps, Agile, OS wars etc.
-
-                            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Learning why and when a tool or process was created helps me understand CS better. The command line heroes podcast by <a href="https://twitter.com/RedHat?ref_src=twsrc%5Etfw">@RedHat</a>, hosted by <a href="https://twitter.com/saronyitbarek?ref_src=twsrc%5Etfw">@saronyitbarek</a> has the best history lessons under a half hour. Especially loved how the episodes on Agile, DevOps and containers are related.</p>&mdash; Suhas Sreenivas (@suhas_sreenivas) <a href="https://twitter.com/suhas_sreenivas/status/1152047634452033537?ref_src=twsrc%5Etfw">July 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-                        </dd>
-                    </dl>
-            </div>
-
-            <div class="content-piece">
-                <h3 class="subheading">Hackathons:</h3>
-                <dl>
-                    <dt>DemonHacks 2019</a></dt>
-                    <dd>The theme was public transport and social good(we chose this). Check it out <a href="https://github.com/suhas-sreenivas/DemonHacks2019">here</a>.</dd>
-
-                </dl>
-            </div>
-
-        </div>
     
         </div>
     </body>
